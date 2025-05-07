@@ -1,0 +1,678 @@
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Portfolio
+    </title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .font-quicksand {
+            font-family: "Quicksand", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+    <!-- Navbar -->
+    <header id="navbar"
+        class="lg:px-16 px-4 bg-white flex items-center justify-between py-6 border-b border-[#F4F4F4] flex-wrap transition-all duration-300 z-50">
+
+        <div class="flex items-center w-full md:w-auto mb-4 md:mb-0 justify-between">
+            <div class="flex items-center">
+                <div class="w-10 h-10 bg-[#FFDA62] rounded-full"></div>
+                <span class="ml-3 font-bold text-[#5956E9] font-quicksand text-base">
+                    hanaarf
+                </span>
+            </div>
+
+            <label for="menu-toggle" class="cursor-pointer md:hidden block ml-auto">
+                <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    viewBox="0 0 20 20">
+                    <title>menu</title>
+                    <path id="hamburger" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                    <path id="close" class="hidden" d="M4 4l12 12M16 4l-12 12" stroke="black" stroke-width="2"></path>
+                </svg>
+            </label>
+        </div>
+
+        <nav class="hidden md:flex space-x-10 text-sm text-[#9695AF]">
+            <a class="font-semibold text-[#5956E9]" href="#home" id="homeLink">Home</a>
+            <a class="font-semibold hover:text-[#5956E9]" href="#service">Services</a>
+            <a class="font-semibold hover:text-[#5956E9]" href="#skill">My Skill</a>
+            <a class="font-semibold hover:text-[#5956E9]" href="#project">My Project</a>
+            <a class="font-semibold hover:text-[#5956E9]" href="#certificate">Certification</a>
+        </nav>
+
+        <a href="https://www.linkedin.com/in/hanaarf/?profileId=ACoAADzOvykBKveKSB1mh902xe7zUK3IV66cIXw"
+            class="hidden md:block px-4 py-3 bg-white border-[#5956E9] border-1 text-[#021638] rounded-full font-semibold transition duration-300 text-sm  hover:bg-[#5956E9] hover:text-white transition duration-300 "
+            id="contactBtn">
+            Contact Me
+        </a>
+
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+        <div class="md:hidden w-full mt-4 hidden" id="menu">
+            <nav class="flex flex-col space-y-2 text-sm text-[#9695AF]">
+                <a class="font-semibold hover:text-[#021638]" href="#home">Home</a>
+                <a class="font-semibold hover:text-[#021638]" href="#skill">My Skill</a>
+                <a class="font-semibold hover:text-[#021638]" href="#project">My Project</a>
+                <a class="font-semibold hover:text-[#021638]" href="#certificate">Certification</a>
+                <a href="https://www.linkedin.com/in/hanaarf/?profileId=ACoAADzOvykBKveKSB1mh902xe7zUK3IV66cIXw"
+                    class="mt-2 px-4 py-3 bg-[#021638] text-white rounded-full font-medium transition duration-300 text-sm">
+                    Contact Me
+                </a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- home -->
+    <section id="home">
+        <main class="flex flex-col-reverse lg:flex-row items-center justify-between px-3 lg:px-20 py-12 lg:py-12">
+            <div class="lg:w-1/2">
+                <button class="px-4 py-2 bg-[#FFDD60] text-[#5956E7] font-semibold text-xs tracking-[1px] rounded-full">
+                    BASED IN INDONESIA
+                </button>
+
+                <h1 class="text-4xl lg:text-4xl font-bold text-black pt-6">
+                    I am Hana Aulia,
+                </h1>
+                <div class="relative flex items-center pt-5">
+                    <h1 class="text-4xl lg:text-4xl font-bold text-black">
+                        Junior Software Developer
+                    </h1>
+                    <img class="absolute right-2 -top-2 w-12 h-12" src="assets/lucu.svg" alt="lucu image" />
+                </div>
+                <p class="mt-4 text-[#9695AF] font-regular">
+                    Has passion and expertise in the field of front end development. Have soft skill such as problem
+                    solving
+                    and teamwork. Always follow technological developments. And have interest in the field of UI/UX
+                    design.
+                </p>
+                <div class="mt-6 flex space-x-4">
+                    <a class="px-6 py-2 bg-[#021638] text-white rounded-full font-medium transition duration-300 hover:bg-[#0439a0]"
+                        href="https://www.linkedin.com/in/hanaarf/?profileId=ACoAADzOvykBKveKSB1mh902xe7zUK3IV66cIXw">
+                        Hire Me
+                    </a>
+                    <a class="px-3 py-2 border-2 border-[#9695AF] text-[#021638] rounded-full font-medium transition duration-300 hover:bg-[#9695AF] hover:text-white"
+                        href="cvHana.pdf" target="_blank">
+                        Download CV
+                    </a>
+
+                </div>
+            </div>
+            <div class="lg:w-1/2 flex justify-center lg:justify-end relative">
+                <img alt="A person thinking with a hand on the chin, surrounded by colorful abstract shapes"
+                    class="relative z-10" height="400" src="assets/img-hn.svg" width="400" />
+            </div>
+        </main>
+        <div class="pt-14">
+            <div class="text-center text-[#D2D1DA] text-base pb-5">
+                Has work for this brand and company
+            </div>
+            <div class="flex flex-wrap justify-center items-center gap-16 md:gap-24 lg:gap-24">
+                <img class="w-20 md:w-22 lg:w-24 object-contain" src="assets/image 10.svg" alt="">
+                <img class="w-20 md:w-22 lg:w-24 object-contain" src="assets/image 11.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Service -->
+    <section id="service">
+        <div class="px-3 pt-28 pb-15 lg:px-16 flex flex-col lg:flex-row items-center gap-10">
+            <div class="w-full lg:w-1/2 flex justify-center">
+                <img src="assets/Group 36.svg" alt="Service Illustration">
+            </div>
+            <div class="w-full lg:w-1/2 space-y-3 mt-12 text-center lg:text-left">
+                <p class="text-[#5956E7] tracking-widest font-semibold uppercase">Service</p>
+                <h1 class="text-[#171622] text-3xl md:text-4xl font-bold">What I Do for Clients</h1>
+                <p class="text-[#9695AF] font-regular">
+                    I provide creative and functional solutions to bring your ideas to life. From UI/UX design to web
+                    development,
+                    I help you build digital experiences that stand out and perform well.
+                </p>
+                <a href="https://www.linkedin.com/in/hanaarf/?profileId=ACoAADzOvykBKveKSB1mh902xe7zUK3IV66cIXw"
+                    class="inline-block border border-[#021638] text-[#021638] px-4 py-2 rounded-full font-semibold hover:bg-[#021638] hover:text-white transition duration-300">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+        <!-- Section Card -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-24">
+            <!-- Card 1: Web Development -->
+            <div class="bg-white shadow-[0_4px_7px_rgba(190,179,179,0.25)] rounded-xl p-6 space-y-4 text-center">
+                <div class="w-12 h-12 mx-auto bg-yellow-400 rounded-full flex items-center justify-center">
+                    <!-- Web Icon -->
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 4h16v16H4V4zm4 4h8v8H8V8z" />
+                    </svg>
+                </div>
+                <h4 class="text-lg font-bold text-[#171622]">Web Development</h4>
+                <p class="text-[#9695AF] text-sm font-medium">
+                    I create modern and responsive websites to ensure the best digital experience for your audience.
+                </p>
+            </div>
+
+            <!-- Card 2: Mobile Development -->
+            <div class="bg-white shadow-[0_4px_7px_rgba(190,179,179,0.25)] rounded-xl p-6 space-y-4 text-center">
+                <div class="w-12 h-12 mx-auto bg-yellow-400 rounded-full flex items-center justify-center">
+                    <!-- Mobile Icon -->
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M7 4h10a1 1 0 011 1v14a1 1 0 01-1 1H7a1 1 0 01-1-1V5a1 1 0 011-1zm5 16h.01" />
+                    </svg>
+                </div>
+                <h4 class="text-lg font-bold text-[#171622]">Mobile Development</h4>
+                <p class="text-[#9695AF] text-sm font-medium">
+                    I build user-friendly and high-performing mobile apps that run smoothly on Android
+                    devices.
+                </p>
+            </div>
+
+            <!-- Card 3: Hosting -->
+            <div class="bg-white shadow-[0_4px_7px_rgba(190,179,179,0.25)] rounded-xl p-6 space-y-4 text-center">
+                <div class="w-12 h-12 mx-auto bg-yellow-400 rounded-full flex items-center justify-center">
+                    <!-- Hosting Icon -->
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16M9 6v12" />
+                    </svg>
+                </div>
+                <h4 class="text-lg font-bold text-[#171622]">Web Hosting</h4>
+                <p class="text-[#9695AF] text-sm font-medium">
+                    I provide reliable and secure web hosting to keep your site online and running 24/7 without
+                    interruption.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- skill -->
+    <section id="skill"
+        class="py-20 mt-52 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-center gap-12 bg-[#F3F1FD]">
+        <div class="bg-white p-6 rounded-2xl shadow-lg w-full lg:w-2/5 relative">
+            <div class="overflow-hidden h-120">
+                <div id="slider" class="flex transition-transform duration-300">
+                    <!-- Items will be dynamically inserted here -->
+                </div>
+            </div>
+            <div id="pagination" class="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2 mb-5">
+                <!-- Bullets will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <div class="lg:w-1/2">
+            <p class="text-[#5956E7] tracking-widest font-semibold uppercase">Skill</p>
+            <h1 class="text-[#171622] text-3xl md:text-4xl font-bold mt-3">My Skill</h1>
+            <p class="mt-4 font-regular text-[#9695AF]">
+                Here are some of the skills I've picked up on my journey as a developer. I love learning new things and
+                enjoy turning ideas into real, functional websites.
+            </p>
+            <div class="mt-6 flex space-x-4">
+                <a class="px-3 py-2 border-2 border-[#171622] bg-[#fff] text-[#171622] rounded-full font-medium transition duration-300 hover:bg-[#171622] hover:text-white"
+                    href="#project">
+                    See Project
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section id="project" class="py-20 px-6 mt-24">
+        <div class="flex flex-col text-center w-full mb-20">
+            <p class="text-[#5956E7] tracking-[0.2em] text-center font-semibold uppercase">PORTOFOLIO</p>
+            <h1 class="text-[#171622] text-3xl text-center md:text-3xl font-bold mt-4">Some Completed Project</h1>
+            <p class="text-[#9695AF] font-medium mt-4 text-sm text-center">
+                A mix of web and mobile projects—designed, developed, and completed from <br> front to back, with a
+                focus on making things work beautifully.
+            </p>
+        </div>
+
+        <div class="space-y-16 max-w-6xl mx-auto">
+            <!-- Row 1 -->
+            <div class="flex flex-col md:flex-row md:justify-center md:space-x-10">
+                <!-- Left -->
+                <div class="md:w-[45%] rounded-xl p-6" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/deepmind.svg" alt="Project 1"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Deepmind</h3>
+                    <p class="text-gray-600">A web and mobile platform designed to make it easy for students to schedule
+                        counseling sessions with BK teachers, complete with calendar integration</p>
+                </div>
+
+                <!-- Right -->
+                <div class="md:w-[45%] rounded-xl p-6 mt-10 md:mt-20" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/dailog.svg" alt="Project 2"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Dailog</h3>
+                    <p class="text-gray-600">A blogging platform that allows users to share their daily experiences,
+                        thoughts, or journals with customizable templates and a simple, distraction-free writing
+                        environment.</p>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="flex flex-col md:flex-row md:justify-center md:space-x-10">
+                <div class="md:w-[45%] rounded-xl p-6" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/food.svg" alt="Project 3"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Food App</h3>
+                    <p class="text-gray-600">A sleek and modern UI design for a food ordering app, built using Flutter,
+                        which focuses on smooth navigation, appealing visuals, and user-friendly interactions for food
+                        lovers.</p>
+
+                </div>
+                <div class="md:w-[45%] rounded-xl p-6 mt-10 md:mt-20" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/ikea.svg" alt="Project 4"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Ikea App</h3>
+                    <p class="text-gray-600">An intuitive UI design concept for the IKEA shopping app, showcasing
+                        seamless product browsing, smart recommendations, and a clean design using Flutter for mobile.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="flex flex-col md:flex-row md:justify-center md:space-x-10">
+                <div class="md:w-[45%] rounded-xl p-6" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/shooting.svg" alt="Project 5"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Shooting Star</h3>
+                    <p class="text-gray-600">A space-themed shooting game developed with JavaScript, featuring enemies,
+                        power-ups, and score tracking for an engaging browser-based gaming experience.</p>
+                </div>
+                <div class="md:w-[45%] rounded-xl p-6 mt-10 md:mt-20" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/ticketing.svg" alt="Project 6"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Ticketing App</h3>
+                    <p class="text-gray-600">A simple yet functional ticket booking app that lets users search for
+                        events, select seats, and make payments directly through the mobile-friendly interface.</p>
+                </div>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="flex flex-col md:flex-row md:justify-center md:space-x-10">
+                <div class="md:w-[45%] rounded-xl p-6" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/pixsphere.svg" alt="Project 7"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Pixsphere</h3>
+                    <p class="text-gray-600">A photo-sharing platform that allows users to upload, manage, and showcase
+                        their pictures in beautiful album layouts with privacy</p>
+                </div>
+                <div class="md:w-[45%] rounded-xl p-6 mt-10 md:mt-20" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/repo.svg" alt="Project 8"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Book Repository</h3>
+                    <p class="text-gray-600">A digital repository for managing a collection of book data, with
+                         clean interface for administrators and users.</p>
+                </div>
+            </div>
+
+            <!-- Row 5 -->
+            <div class="flex flex-col md:flex-row md:justify-center md:space-x-10">
+                <div class="md:w-[45%] rounded-xl p-6" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/sarpras.svg" alt="Project 9"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Sarpras App</h3>
+                    <p class="text-gray-600">A UI design concept for an internal app used to manage borrowing and
+                        returning of school facilities and equipment with approval workflows and item tracking.</p>
+                </div>
+                <div class="md:w-[45%] rounded-xl p-6 mt-10 md:mt-20" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/pp.svg" alt="Project 10"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Putar Pintar</h3>
+                    <p class="text-gray-600">An educational app aimed at helping users improve their English through
+                        interactive lessons, quizzes, and point xp to stay motivated.</p>
+                </div>
+            </div>
+
+            <!-- Row 6 -->
+            <div class="flex flex-col md:flex-row md:justify-center md:space-x-10">
+                <div class="md:w-[45%] rounded-xl p-6" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/kitkat.svg" alt="Project 11"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Kitkat Web</h3>
+                    <p class="text-gray-600">An e-commerce website inspired by Kitkat branding, showcasing product
+                        displays, shopping cart functionality, and a fun, chocolatey theme to enhance user engagement.
+                    </p>
+                </div>
+                <div class="md:w-[45%] rounded-xl p-6 mt-10 md:mt-20" data-aos="fade-up-left" data-aos-delay="500">
+                    <img src="assets/project/violation.svg" alt="Project 12"
+                        class="rounded-lg mb-4 hover:scale-105 duration-500">
+                    <h3 class="text-xl font-semibold mb-2">Student Violation</h3>
+                    <p class="text-gray-600">A school dashboard system to monitor student behavior and record violation
+                        points, helping teachers and staff track discipline data effectively.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- certificate -->
+    <section id="certificate" class="career container py-12">
+        <div class="flex flex-col w-full mb-20">
+            <p class="text-[#5956E7] tracking-[0.2em] text-center font-semibold uppercase">Certification</p>
+            <h1 class="text-[#171622] text-3xl text-center md:text-3xl font-bold mt-4">My Certification</h1>
+            <p class="text-[#9695AF] font-medium mt-4 text-sm text-center">
+                Includes certifications in responsive web design and database management, <br> earned through practical
+                courses and hands-on projects.
+            </p>
+        </div>
+        <br>
+
+        <!-- sertif Database -->
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-wrap items-center justify-between mb-16">
+                <div class="w-full md:w-1/2 flex justify-center md:justify-center mb-6 md:mb-0">
+                    <img src="assets/sertif-database.jpg" alt="Career 1"
+                        class="w-full max-w-md h-auto rounded-lg shadow-md">
+                </div>
+                <div class="w-full md:w-1/2 flex items-center">
+                    <div class="text-left px-4">
+                        <span class="text-gray-500 font-semibold block mb-2">From Certiport - Issued May 8, 2024</span>
+                        <h3 class="text-3xl font-semibold">IT Specialist Database</h3>
+                        <p class="text-gray-700 mt-4">
+                            Completed in-depth coursework on database management systems, covering database design, data
+                            modeling, SQL, normalization, data security, and performance optimization. Gained practical
+                            experience in managing and maintaining relational and non-relational databases.
+                        </p>
+                        <a href="assets/sertif-database.jpg" target="_blank"
+                            class="mt-4 inline-block px-6 py-2 text-white rounded-full font-medium transition duration-300 bg-[#021638] hover:bg-[#0439a0]">See
+                            Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <!-- sertif web -->
+        <div class="max-w-6xl mx-auto px-12">
+            <div class="flex flex-wrap items-center justify-between mb-16">
+                <div class="w-full md:w-1/2 flex items-center justify-center">
+                    <div class="text-left px-4">
+                        <span class="text-gray-500 font-semibold block mb-2">From FreeCodeCamp - Issued July 19,
+                            2023</span>
+                        <h3 class="text-3xl font-semibold">Responsive Web Design</h3>
+                        <p class="text-gray-700 mt-4">
+                            Representing about 300 hours of coursework and hands-on experience in various programming
+                            languages, frameworks, and software development practices.</p>
+                        <a href="assets/sertif-web.jpg" target="_blank"
+                            class="mt-4 inline-block px-6 py-2 text-white rounded-full font-medium transition duration-300 bg-[#021638] hover:bg-[#0439a0]">See
+                            Detail</a>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2 flex justify-center md:justify-center mb-6 md:mb-0">
+                    <img src="assets/sertif-web.jpg" alt="Career 1" class="w-full max-w-md h-auto rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact me -->
+    <!-- <section id="contact">
+        <div class="w-full lg:px-34 px-6 py-22 bg-white rounded-lg">
+            <p class="text-[#5956E7] tracking-[0.2em] text-center font-semibold uppercase">Contact</p>
+            <h1 class="text-[#171622] text-3xl text-center md:text-3xl font-bold mt-4">Contact Me</h1>
+            <p class="text-[#9695AF] font-medium mt-4 text-sm text-center">
+                Feel free to reach out for collaboration, questions, or opportunities. Open <br> to freelance work,
+                internships, or team projects.
+            </p><br><br>
+            <form class="space-y-6 bg-[#F3F1FD] p-12 rounded-2xl">
+                <div class="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
+                    <div class="flex-1">
+                        <label for="name" class="block text-gray-700">Name</label>
+                        <input type="text" id="name"
+                            class="w-full p-3 mt-1 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="flex-1">
+                        <label for="email" class="block text-gray-700">Email</label>
+                        <input type="email" id="email"
+                            class="w-full p-3 mt-1 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                </div>
+                <div>
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" rows="6"
+                        class="w-full p-3 mt-1 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit"
+                        class="px-6 py-3 mt-3 bg-[#FFDD60] text-black rounded-3xl hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-[#FFDD60]">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section> -->
+
+    <!-- footer -->
+    <footer>
+        <p class="text-center py-10">@All Rights Reserved. Copyright <span class="text-[#9695AF]">hanatechzone</span>
+            Indonesia.</p>
+    </footer>
+
+    <!-- js -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // scroll effect
+            let lastScrollTop = 0;
+            const navbar = document.getElementById("navbar");
+
+            window.addEventListener("scroll", function () {
+                let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (currentScroll > lastScrollTop && currentScroll > 80) {
+                    navbar.classList.add("fixed", "top-0", "left-0", "w-full", "shadow-md", "bg-white");
+                } else if (currentScroll <= 80) {
+                    navbar.classList.remove("fixed", "top-0", "left-0", "w-full", "shadow-md",
+                        "bg-white");
+                }
+
+                lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+            });
+
+            const menuToggle = document.getElementById("menu-toggle");
+            const menu = document.getElementById("menu");
+            const hamburgerIcon = document.getElementById("hamburger");
+            const closeIcon = document.getElementById("close");
+
+            menuToggle.addEventListener("change", function () {
+                if (menuToggle.checked) {
+                    menu.classList.remove("hidden");
+                    hamburgerIcon.classList.add("hidden");
+                    closeIcon.classList.remove("hidden");
+                } else {
+                    menu.classList.add("hidden");
+                    hamburgerIcon.classList.remove("hidden");
+                    closeIcon.classList.add("hidden");
+                }
+            });
+
+            const navLinks = document.querySelectorAll("nav a");
+            const contactBtn = document.getElementById("contactBtn");
+            const homeLink = document.getElementById("homeLink");
+
+            // Fungsi untuk menghapus class active dari semua kecuali Home
+            function resetActive() {
+                navLinks.forEach(nav => {
+                    if (nav !== homeLink) {
+                        nav.classList.remove("text-[#5956E9]");
+                        nav.classList.remove("text-[#021638]");
+                    }
+                });
+                contactBtn.classList.remove("opacity-70");
+            }
+
+            // Event listener untuk setiap menu navigasi
+            navLinks.forEach(link => {
+                link.addEventListener("click", function () {
+                    resetActive();
+                    this.classList.add("text-[#021638]");
+
+                    // Hapus active dari Home kalau yang diklik bukan Home
+                    if (this !== homeLink) {
+                        homeLink.classList.remove("text-[#5956E9]");
+                    }
+                });
+            });
+
+            // Event listener untuk tombol Contact Me
+            contactBtn.addEventListener("click", function (event) {
+                event.preventDefault();
+                resetActive();
+                homeLink.classList.remove("text-[#5956E9]"); // Hapus aktif dari Home
+                this.classList.add("opacity-70");
+                setTimeout(() => {
+                    this.classList.remove("opacity-70");
+                }, 1000);
+            });
+        });
+
+
+        // slider
+        document.addEventListener("DOMContentLoaded", function () {
+            const skills = [{
+                    name: "HTML",
+                    img: "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+                    desc: "Skilled in creating clean and semantic webpage structures."
+                },
+                {
+                    name: "CSS",
+                    img: "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+                    desc: "Experienced in styling responsive and visually appealing layouts."
+                },
+                {
+                    name: "JavaScript",
+                    img: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
+                    desc: "Able to build interactive web features and handle DOM manipulation."
+                },
+                {
+                    name: "PHP",
+                    img: "https://cdn-icons-png.flaticon.com/512/919/919830.png",
+                    desc: "Proficient in backend development using PHP and its frameworks."
+                },
+                {
+                    name: "Laravel",
+                    img: "https://tse2.mm.bing.net/th?id=OIP.gX6qzrwCF_Z4ukpEovsMGAHaHa&pid=Api&P=0&h=180",
+                    desc: "Builds dynamic web apps using Laravel's MVC architecture."
+                },
+                {
+                    name: "Flutter",
+                    img: "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_flutter_icon_130599.png",
+                    desc: "Develops cross-platform mobile apps with Flutter and Dart."
+                },
+                {
+                    name: "Tailwind",
+                    img: "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_tailwind_icon_130128.png",
+                    desc: "Efficient in designing with utility-first CSS for fast prototyping."
+                },
+                {
+                    name: "Bootstrap",
+                    img: "https://cdn-icons-png.flaticon.com/512/5968/5968672.png",
+                    desc: "Familiar with Bootstrap components and responsive grid systems."
+                },
+                {
+                    name: "Git",
+                    img: "https://cdn-icons-png.flaticon.com/512/2111/2111288.png",
+                    desc: "Manages code versioning and collaboration with Git effectively."
+                },
+                {
+                    name: "API",
+                    img: "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+                    desc: "Understands how to integrate and consume RESTful APIs."
+                },
+                {
+                    name: "Figma",
+                    img: "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+                    desc: "Designs clean UI/UX wireframes and prototypes using Figma."
+                }
+            ];
+
+            const slider = document.getElementById("slider");
+            const pagination = document.getElementById("pagination");
+            const itemsPerPage = 3;
+            const totalPages = Math.ceil(skills.length / itemsPerPage);
+            let currentPage = 0;
+
+            function renderSlides() {
+                slider.innerHTML = "";
+                pagination.innerHTML = "";
+
+                for (let i = 0; i < totalPages; i++) {
+                    let slide = document.createElement("div");
+                    slide.classList.add("flex", "flex-col", "space-y-6", "snap-y", "snap-mandatory", "shrink-0",
+                        "w-full");
+                    slide.dataset.index = i;
+
+                    let start = i * itemsPerPage;
+                    let end = start + itemsPerPage;
+                    let items = skills.slice(start, end);
+
+                    items.forEach(skill => {
+                        let item = document.createElement("div");
+                        item.classList.add("flex", "items-center", "bg-transparent", "p-4",
+                            "rounded-xl", "snap-start", "transition-all", "duration-300",
+                            "hover:bg-gradient-to-r", "from-[#5956E9]", "to-[#FFE7BD]");
+                        item.innerHTML = `
+                            <div class="flex items-center bg-white p-4 rounded-xl shadow-sm snap-start transition-all duration-300">
+                                <img src="${skill.img}" class="w-12 h-12 rounded-full bg-[#FFDD60] p-2">
+                                <div class="ml-4">
+                                    <h3 class="text-lg font-semibold">${skill.name}</h3>
+                                    <p class="text-gray-500 text-sm">${skill.desc}</p>
+
+                                </div>
+                            </div>
+                        `;
+                        slide.appendChild(item);
+                    });
+                    slider.appendChild(slide);
+                }
+            }
+
+            function renderPagination() {
+                for (let i = 0; i < totalPages; i++) {
+                    let bullet = document.createElement("span");
+                    bullet.classList.add("w-3", "h-3", "bg-gray-300", "rounded-full", "cursor-pointer");
+                    bullet.dataset.index = i;
+                    bullet.addEventListener("click", function () {
+                        currentPage = parseInt(this.dataset.index);
+                        updateSlider();
+                    });
+                    pagination.appendChild(bullet);
+                }
+            }
+
+            function updateSlider() {
+                slider.style.transform = `translateX(-${currentPage * 100}%)`;
+                document.querySelectorAll("#pagination span").forEach((bullet, index) => {
+                    bullet.classList.toggle("bg-gray-400", index === currentPage);
+                });
+            }
+
+            renderSlides();
+            renderPagination();
+            updateSlider();
+        });
+    </script>
+</body>
+
+</html>
